@@ -1,0 +1,122 @@
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+/* Download Cv */
+.container .row .col a{
+    margin: 20px;
+    
+    text-decoration: none;
+
+    color: #000000;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0px #c7c7c7;
+    padding-bottom: 10px;
+    align-content: center;
+    align-items: center;
+    
+    
+}
+
+.container .row .col a:hover{
+    border-bottom: 3px solid #313131;
+}
+
+
+/* skill */
+.skill{
+    width: 100vw;
+    background: #ffffff;
+    color: #000000;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+} 
+
+.skill .wrapper{
+    width: 80%;
+}
+
+.skill .wrapper h2{
+    
+    font-size: 2.5rem;
+    
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+
+
+.skill .wrapper-skill{
+    text-align: left;
+}
+
+.skill .wrapper-skill h5{
+    text-transform: uppercase;
+    
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+}
+
+.skill .wrapper-skill .background{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background: rgb(145, 142, 142) ;
+    margin-bottom: 20px;
+}
+
+.skill .wrapper-skill .background .indicator{
+    position: absolute;
+    width: 80%;
+    height: 30px;
+    background: rgb(19, 19, 19) ;
+    z-index: 2;
+    
+}
+
+.skill .wrapper-skill .background .indicator-css{
+    position: absolute;
+    width: 80%;
+    height: 30px;
+    background: rgb(19, 19, 19) ;
+    z-index: 2;
+}
+
+.skill .wrapper-skill .background .indicator-sql{
+    position: absolute;
+    width: 80%;
+    height: 30px;
+    background: rgb(19, 19, 19) ;
+    z-index: 2;
+}
+
+.skill .wrapper-skill .background .indicator-python{
+    position: absolute;
+    width: 80%;
+    height: 30px;
+    background: rgb(19, 19, 19) ;
+    z-index: 2;
+}
+
+.skill .wrapper-skill .background .indicator-php{
+    position: absolute;
+    width: 65%;
+    height: 30px;
+    background: rgb(19, 19, 19) ;
+    z-index: 2;
+}
+
+
+/* creation */
+
